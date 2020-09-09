@@ -1,4 +1,4 @@
-# connect
+# gossamer
 
 rules:
 - no weirdness
