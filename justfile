@@ -50,6 +50,12 @@ draft: push
 pr: check push
 	hub pull-request -o
 
+run:
+	cargo run
+
+open:
+	open http://localhost:8000
+
 merge BRANCH=`git rev-parse --abbrev-ref HEAD`:
 	#!/usr/bin/env bash
 	set -euxo pipefail

@@ -11,4 +11,4 @@ notes:
 - sqlite for database
 
 todo:
-- create an account
+- create an account (password + username)
